@@ -1,0 +1,194 @@
+[1607769526.868][INFO]: Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 14236
+[1607769526.868][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1607769527.546][INFO]: [95c1f95aefcaabf2c93a6d50b14506fa] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "/home/yuliiachernysh/Insider/build/downloads/1607769524522_24039_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "eager"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "/home/yuliiachernysh/Insider/build/downloads/1607769524522_24039_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "eager",
+      "takesScreenshot": true
+   }
+}
+[1607769527.546][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/home/yuliiachernysh/Insider/build/downloads/1607769524522_24039_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1607769527.546][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1607769527.547][INFO]: Launching chrome: /usr/bin/google-chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.com.google.Chrome.M4euv3 data:,
+[1607769527.975][INFO]: resolved localhost to ["127.0.0.1"]
+[1607769527.981][INFO]: resolved localhost to ["127.0.0.1"]
+[1607769528.102][INFO]: [95c1f95aefcaabf2c93a6d50b14506fa] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "81.0.4044.138",
+      "chrome": {
+         "chromedriverVersion": "81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999})",
+         "userDataDir": "/tmp/.com.google.Chrome.M4euv3"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:43421"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "eager",
+      "platformName": "linux",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "95c1f95aefcaabf2c93a6d50b14506fa"
+}
+[1607769528.212][INFO]: [95c1f95aefcaabf2c93a6d50b14506fa] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1607769528.212][INFO]: Waiting for pending navigations...
+[1607769528.213][INFO]: Done waiting for pending navigations. Status: ok
+[1607769528.321][INFO]: Waiting for pending navigations...
+[1607769528.321][INFO]: Done waiting for pending navigations. Status: ok
+[1607769528.321][INFO]: [95c1f95aefcaabf2c93a6d50b14506fa] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 77,
+   "y": 37
+}
+[1607769528.332][INFO]: [95c1f95aefcaabf2c93a6d50b14506fa] COMMAND Navigate {
+   "url": "https://useinsider.com/"
+}
+[1607769528.332][INFO]: Waiting for pending navigations...
+[1607769528.333][INFO]: Done waiting for pending navigations. Status: ok
+[1607769528.578][INFO]: Waiting for pending navigations...
+[1607769528.721][SEVERE]: Timed out receiving message from renderer: 0.100
+[1607769528.822][SEVERE]: Timed out receiving message from renderer: 0.100
+[1607769528.923][SEVERE]: Timed out receiving message from renderer: 0.100
+[1607769531.225][INFO]: Done waiting for pending navigations. Status: ok
+[1607769531.225][INFO]: [95c1f95aefcaabf2c93a6d50b14506fa] RESPONSE Navigate
+[1607769531.284][INFO]: [95c1f95aefcaabf2c93a6d50b14506fa] COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//div[@class='col span_12  left']//span[text()='GET A DEMO']"
+}
+[1607769531.284][INFO]: Waiting for pending navigations...
+[1607769531.603][INFO]: Done waiting for pending navigations. Status: ok
+[1607769531.786][INFO]: Waiting for pending navigations...
+[1607769531.856][INFO]: Done waiting for pending navigations. Status: ok
+[1607769531.856][INFO]: [95c1f95aefcaabf2c93a6d50b14506fa] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f73bda7a-c7b7-41f2-8a04-0999a5371948"
+}
+[1607769531.944][INFO]: [95c1f95aefcaabf2c93a6d50b14506fa] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f73bda7a-c7b7-41f2-8a04-0999a5371948"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1607769531.945][INFO]: Waiting for pending navigations...
+[1607769532.169][INFO]: Done waiting for pending navigations. Status: ok
+[1607769532.464][INFO]: Waiting for pending navigations...
+[1607769532.718][INFO]: Done waiting for pending navigations. Status: ok
+[1607769532.718][INFO]: [95c1f95aefcaabf2c93a6d50b14506fa] RESPONSE ExecuteScript true
+[1607769532.789][INFO]: [95c1f95aefcaabf2c93a6d50b14506fa] COMMAND Quit {
+
+}
+[1607769532.839][INFO]: [95c1f95aefcaabf2c93a6d50b14506fa] RESPONSE Quit
