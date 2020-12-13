@@ -1,8 +1,0 @@
-1607788866834	geckodriver	INFO	Listening on 127.0.0.1:3554
-1607788867277	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileyPvnxL"
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1607788869876	Marionette	INFO	Listening on port 34167
-1607788869924	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: https://useinsider.com/wp-content/plugins/wp-views/vendor/toolset/toolset-common/res/lib/bootstrap3/js/bootstrap.min.js?ver=3.3.7, line 6: Error: Bootstrap's JavaScript requires jQuery version 1.9.1 or higher, but lower than version 4
-JavaScript error: https://useinsider.com/wp-content/plugins/video-popup/js/YouTubePopUp.js?ver=1607784018, line 1: TypeError: jQuery(...).YouTubePopUp is not a function
-1607788877826	Marionette	INFO	Stopped listening on port 34167
